@@ -20,8 +20,6 @@ func main() {
 			break
 		}
 
-		fmt.Println(line)
+		fmt.Printf(line[0] + " = \n")
 	}
-
-	fmt.Println("Hello World!")
 }
